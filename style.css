@@ -1,5 +1,6 @@
-body {
-  background-color: #d66f6f;
+
+ body {
+  background-color: #F3D8A5;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -11,6 +12,7 @@ h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 60px;
+  color: #3E1067
 }
 
 form {
@@ -26,20 +28,20 @@ form {
   padding: 10px 20px;
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 18px;
   color: #333;
 }
 
 #search-button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: #D6683E;
   color: white;
   border: none;
   font-size: 18px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -77,7 +79,7 @@ form {
 .search-result a {
   padding: 10px;
   display: block;
-  color: #333;
+  color: #010003;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out;
 }
@@ -87,7 +89,7 @@ form {
 }
 
 #show-more-button {
-  background-color: #008cba;
+  background-color:#DE8189;
   border: none;
   color: white;
   padding: 10px 20px;
